@@ -1,0 +1,12 @@
+name: goveralls
+version: 0.1.2
+description: Wercker step for goveralls, go integration for Coveralls.io continuous code coverage tracking system.
+kyewords:
+  - go
+  - golang
+  - test
+  - coverage
+properties:
+    token:
+      type: string
+      required: true
